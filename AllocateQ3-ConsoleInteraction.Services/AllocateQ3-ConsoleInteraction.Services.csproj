@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>AllocateQ3_ConsoleInteraction.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AllocateQ3-ConsoleInteraction.Common\AllocateQ3-ConsoleInteraction.Common.csproj" />
+    <ProjectReference Include="..\AllocateQ3-ConsoleInteraction.Repositories\AllocateQ3-ConsoleInteraction.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
